@@ -187,3 +187,5 @@ def full_kpi_report(channels: pd.DataFrame, videos: pd.DataFrame) -> dict:
     }
 
 # platform KPIs: creator retention D30/D90/D180, HHI, activation rate
+
+# platform KPIs: creator retention D30/D90/D180, HHI, activation rate
