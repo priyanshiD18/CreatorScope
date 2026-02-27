@@ -215,3 +215,5 @@ for k, v in retention.items():
 print("\nKPI report summary saved. Run Part 2 for cohort growth analysis.")
 
 # engagement analysis: nano creators show 4x higher engagement rate than mega tier
+
+# engagement analysis: nano creators show 4x higher engagement rate than mega tier
