@@ -108,3 +108,5 @@ ORDER BY total_subscribers DESC
 LIMIT 20;
 
 # added Gini coefficient SQL and geographic distribution query
+
+# added Gini coefficient SQL and geographic distribution query
