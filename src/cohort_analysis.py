@@ -318,3 +318,5 @@ def find_aha_moment(channels: pd.DataFrame, videos: pd.DataFrame,
 # find_aha_moment: threshold scan (views x days) for 6-month retention lift
 
 # added build_regression_features with no-leakage expanding window
+
+# Ridge and Lasso added to run_growth_regression with VIF diagnostics
