@@ -176,3 +176,5 @@ print(f"\n>>> AHA MOMENT: Creators who reach {best['view_threshold']:,} views "
 # survival result: 60% inactive by day 90, 80% by day 180
 
 # OLS result: consistency_score coef = 2.1x upload_count coef (p<0.01)
+
+# Lasso: upload_frequency drops out, consistency_score and avg_engagement survive regularisation
