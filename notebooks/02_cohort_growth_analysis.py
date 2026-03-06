@@ -178,3 +178,5 @@ print(f"\n>>> AHA MOMENT: Creators who reach {best['view_threshold']:,} views "
 # OLS result: consistency_score coef = 2.1x upload_count coef (p<0.01)
 
 # Lasso: upload_frequency drops out, consistency_score and avg_engagement survive regularisation
+
+# PCA: Community Builders and Algorithm Surfers cluster distinctly despite similar view counts
