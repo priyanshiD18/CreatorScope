@@ -320,3 +320,5 @@ def find_aha_moment(channels: pd.DataFrame, videos: pd.DataFrame,
 # added build_regression_features with no-leakage expanding window
 
 # Ridge and Lasso added to run_growth_regression with VIF diagnostics
+
+# K-Means segmentation with heuristic archetype labelling (k=5)
