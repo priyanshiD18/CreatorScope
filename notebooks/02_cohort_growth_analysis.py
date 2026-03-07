@@ -180,3 +180,5 @@ print(f"\n>>> AHA MOMENT: Creators who reach {best['view_threshold']:,} views "
 # Lasso: upload_frequency drops out, consistency_score and avg_engagement survive regularisation
 
 # PCA: Community Builders and Algorithm Surfers cluster distinctly despite similar view counts
+
+# aha moment: 2000 views in 30 days = 3.2x lift in 6-month retention
