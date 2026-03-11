@@ -198,3 +198,5 @@ plt.show()
 # CausalImpact: +20% view lift post-algo-change confirmed (posterior p<0.01)
 
 # DiD: treated coef significant p<0.01, trending causes measurable view lift
+
+# PSM: +34% view lift post-trending but effect decays to baseline within 14-18 days
