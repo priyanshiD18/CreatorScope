@@ -266,3 +266,5 @@ def simulate_causal_impact(n_pre: int = 60, n_post: int = 30, seed: int = 42) ->
 # simulate_causal_impact: CausalImpact wrapper with DiD fallback if not installed
 
 # propensity_score_matching: greedy 1:1 nearest-neighbour on channel features
+
+# power_analysis and experiment_runtime_days added
