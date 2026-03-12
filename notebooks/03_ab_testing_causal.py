@@ -200,3 +200,5 @@ plt.show()
 # DiD: treated coef significant p<0.01, trending causes measurable view lift
 
 # PSM: +34% view lift post-trending but effect decays to baseline within 14-18 days
+
+# experiment design: weekly digest email hypothesis formalised with metrics and guardrails
