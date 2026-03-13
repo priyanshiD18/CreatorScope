@@ -202,3 +202,5 @@ plt.show()
 # PSM: +34% view lift post-trending but effect decays to baseline within 14-18 days
 
 # experiment design: weekly digest email hypothesis formalised with metrics and guardrails
+
+# power curve plotted, runtime: 15 days at 5000 daily active creators
