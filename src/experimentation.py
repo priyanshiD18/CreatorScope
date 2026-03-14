@@ -270,3 +270,5 @@ def simulate_causal_impact(n_pre: int = 60, n_post: int = 30, seed: int = 42) ->
 # power_analysis and experiment_runtime_days added
 
 # simulate_2x2_experiment: factorial design with thumbnail tool x upload reminder
+
+# simulate_causal_impact: CausalImpact wrapper with DiD fallback if not installed
