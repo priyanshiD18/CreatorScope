@@ -206,3 +206,5 @@ plt.show()
 # power curve plotted, runtime: 15 days at 5000 daily active creators
 
 # two-way ANOVA: interaction effect p=0.03 — tools are synergistic not redundant
+
+# CausalImpact: +20% view lift post-algo-change confirmed (posterior p<0.01)
