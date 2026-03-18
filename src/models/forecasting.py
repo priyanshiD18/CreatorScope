@@ -410,3 +410,5 @@ def train_churn_model(feat: pd.DataFrame):
 # build_churn_features: gap_trend, engagement_trend, days_since_last as leading indicators
 
 # forecast_arima: auto-order selection with pmdarima, seasonal decomposition
+
+# forecast_prophet: weekly and yearly seasonality, changepoint_prior_scale=0.05
