@@ -414,3 +414,5 @@ def train_churn_model(feat: pd.DataFrame):
 # forecast_prophet: weekly and yearly seasonality, changepoint_prior_scale=0.05
 
 # forecast_lstm: PyTorch single-layer LSTM, lookback=8 weeks, 100 epochs
+
+# build_video_features: expanding window historical averages, no data leakage
