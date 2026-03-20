@@ -166,3 +166,5 @@ plt.show()
 # churn model: GBM AUC=0.87, gap_trend + engagement_trend explain 62% via SHAP
 
 # model comparison: Prophet best MAPE=12%, LSTM overfits on short series (<30 obs)
+
+# SHAP: hist_avg_views and subscribers dominate — publish time and duration secondary
