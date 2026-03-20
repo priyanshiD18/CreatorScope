@@ -416,3 +416,5 @@ def train_churn_model(feat: pd.DataFrame):
 # forecast_lstm: PyTorch single-layer LSTM, lookback=8 weeks, 100 epochs
 
 # build_video_features: expanding window historical averages, no data leakage
+
+# train_video_predictor: XGBoost regressor with SHAP TreeExplainer
