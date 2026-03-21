@@ -418,3 +418,5 @@ def train_churn_model(feat: pd.DataFrame):
 # build_video_features: expanding window historical averages, no data leakage
 
 # train_video_predictor: XGBoost regressor with SHAP TreeExplainer
+
+# detect_anomalies: Isolation Forest (contamination=5%) + Z-score on engagement residuals
