@@ -420,3 +420,5 @@ def train_churn_model(feat: pd.DataFrame):
 # train_video_predictor: XGBoost regressor with SHAP TreeExplainer
 
 # detect_anomalies: Isolation Forest (contamination=5%) + Z-score on engagement residuals
+
+# build_churn_features: gap_trend, engagement_trend, days_since_last as leading indicators
