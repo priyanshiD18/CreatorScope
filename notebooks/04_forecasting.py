@@ -168,3 +168,5 @@ plt.show()
 # model comparison: Prophet best MAPE=12%, LSTM overfits on short series (<30 obs)
 
 # SHAP: hist_avg_views and subscribers dominate — publish time and duration secondary
+
+# anomaly detection: 5% contamination rate flags over/under-performers accurately
