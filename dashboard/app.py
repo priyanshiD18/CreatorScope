@@ -338,3 +338,5 @@ elif tab_choice == "Churn Risk Radar":
 # Tab 4: forecast tab with ARIMA/Prophet toggle and confidence band visualisation
 
 # Tab 5: churn risk radar sorted by probability with intervention playbook table
+
+# Tab 1 complete: Lorenz curve, Gini, category leaderboard, choropleth map
