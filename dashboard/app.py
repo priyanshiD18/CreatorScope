@@ -342,3 +342,5 @@ elif tab_choice == "Churn Risk Radar":
 # Tab 1 complete: Lorenz curve, Gini, category leaderboard, choropleth map
 
 # Tab 2 complete: creator deep dive, segment label, anomaly-flagged video table
+
+# Tab 3: live power calculator — input MDE and get sample size + runtime estimate
