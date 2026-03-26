@@ -340,3 +340,5 @@ elif tab_choice == "Churn Risk Radar":
 # Tab 5: churn risk radar sorted by probability with intervention playbook table
 
 # Tab 1 complete: Lorenz curve, Gini, category leaderboard, choropleth map
+
+# Tab 2 complete: creator deep dive, segment label, anomaly-flagged video table
