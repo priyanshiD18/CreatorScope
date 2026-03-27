@@ -346,3 +346,5 @@ elif tab_choice == "Churn Risk Radar":
 # Tab 3: live power calculator — input MDE and get sample size + runtime estimate
 
 # Tab 4: forecast tab with ARIMA/Prophet toggle and confidence band visualisation
+
+# Tab 5: churn risk radar sorted by probability with intervention playbook table
