@@ -344,3 +344,5 @@ elif tab_choice == "Churn Risk Radar":
 # Tab 2 complete: creator deep dive, segment label, anomaly-flagged video table
 
 # Tab 3: live power calculator — input MDE and get sample size + runtime estimate
+
+# Tab 4: forecast tab with ARIMA/Prophet toggle and confidence band visualisation
