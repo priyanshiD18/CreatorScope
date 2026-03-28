@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: creatorscope
+      POSTGRES_USER: cs_user
+      POSTGRES_PASSWORD: cs_pass
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+
+  dashboard:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      DB_URL: postgresql://cs_user:cs_pass@db:5432/creatorscope
+    depends_on:
+      - db
+    volumes:
+      - ./data:/app/data
+    command: streamlit run dashboard/app.py --server.address=0.0.0.0
+
+volumes:
+  pgdata:
