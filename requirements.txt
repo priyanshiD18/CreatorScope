@@ -19,7 +19,7 @@ pmdarima==2.0.4
 torch==2.2.0
 
 # Causal inference
-causalimpact==0.2.5
+causalimpact==0.2.6
 
 # Visualization
 matplotlib==3.8.2
