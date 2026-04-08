@@ -138,7 +138,7 @@ def gini_coefficient(values: np.ndarray) -> float:
     Compute Gini coefficient of an array of non-negative values.
     0 = perfect equality, 1 = maximum inequality.
     """
-    values = np.sort(values[values > 0])
+    values = np.sort(values[values >= 0])
     n = len(values)
     if n == 0:
         return 0.0
