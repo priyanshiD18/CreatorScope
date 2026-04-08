@@ -27,7 +27,7 @@ jobs:
       - name: Install core dependencies
         run: |
           pip install pandas numpy scikit-learn statsmodels scipy xgboost \
-                      shap matplotlib seaborn plotly pytest
+                      shap matplotlib seaborn plotly pytest sqlalchemy psycopg2-binary
 
       - name: Lint with flake8
         run: |
