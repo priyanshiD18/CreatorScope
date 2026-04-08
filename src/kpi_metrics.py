@@ -7,7 +7,7 @@ Computes all creator-side and platform-side KPIs defined in the blueprint.
 
 import numpy as np
 import pandas as pd
-from scipy.stats import gini  # fallback implemented below if not available
+import scipy.stats  # gini implemented manually below
 
 
 # ─────────────────────────────────────────────────────────────────────────────
