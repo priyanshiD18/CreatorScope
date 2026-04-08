@@ -4,7 +4,7 @@
 
 ---
 
-> "The creator economy is projected to be worth $500B+ by 2027, but we still don't have
+> "The creator economy is projected to approach $480B+ by 2027 (Goldman Sachs Research, 2023) but we still don't have
 > great answers to basic questions: Does upload frequency actually matter? What separates
 > a creator who grows from one who stalls? If a platform changes its recommendation
 > algorithm, how do you measure the causal impact on creator growth?
