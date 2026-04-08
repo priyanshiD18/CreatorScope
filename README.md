@@ -162,7 +162,3 @@ A/B experiments, and identified data gaps.
 `Python` · `PostgreSQL` · `pandas` · `scikit-learn` · `XGBoost` · `statsmodels`
 · `Prophet` · `PyTorch (LSTM)` · `SHAP` · `Streamlit` · `Plotly` · `Docker`
 · `GitHub Actions CI`
-
-# final polish pass — architecture diagram, quick start, key findings, full stack listed
-
-# final polish pass — architecture diagram, quick start, key findings, full stack listed
